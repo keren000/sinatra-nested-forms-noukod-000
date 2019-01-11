@@ -7,3 +7,9 @@
 
 
 <h2>Display your second ship here</h2>
+
+<p><% @ships.each do |ship| %>
+      <%= ship.name %>
+      <%= ship.type %>
+      <%= ship.booty %>
+    <% end %></p>
